@@ -1,0 +1,95 @@
+/* 
+*********************
+USED COLORS 
+*********************
+
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+     */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mondarian-container {
+  width: 748px;
+  height: 748px;
+  background-color: #000;
+
+  display: grid;
+  grid-template-columns: 320px 198px 153px 50px;
+  grid-template-rows: 414px 130px 155px 20px;
+  gap: 9px;
+}
+
+.color-white {
+  background-color: #f0f1ec;
+}
+
+.red {
+  background-color: #e72f24;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.second {
+  grid-column: 2 / -1;
+  grid-row: 1 /2;
+}
+
+.third {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+.fourth {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}
+
+.fifth {
+  background-color: #004592;
+  border-bottom: 10px solid #000;
+
+  /* Code below 👇🏻 is added just to make things clear, but the grid system can work  without it ! */
+
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.sixth {
+  grid-column: 4 / 5;
+  grid-row: 3 / -1;
+}
+
+.seventh {
+  /* Code below 👇🏻 is added just to make things clear, but the grid system can work  without it ! */
+
+  grid-column: 1 / 2;
+  grid-row: 4 / -1;
+}
+
+.eight {
+  background-color: #f9d01e;
+
+  /* Code below 👇🏻 is added just to make things clear, but the grid system can work  without it ! */
+
+  grid-column: 2 / 3;
+  grid-row: 4 / -1;
+}
+
+.ninth {
+  background-color: #232629;
+
+  /* Code below 👇🏻 is added just to make things clear, but the grid system can work  without it ! */
+
+  grid-column: 3 / 4;
+  grid-row: 4 / -1;
+}
